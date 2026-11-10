@@ -19,11 +19,11 @@ export const metadata: Metadata = {
     template: "%s - Aki-Petteri Kuivas",
   },
   description:
-    "Full-stack developer building cross-platform apps and reliable web systems with React, React Native, and Node.js.",
+    "Full-stack developer experienced in TypeScript, React, Next.js, Angular, Node.js, .NET, and relational databases.",
   openGraph: {
     title: "Aki-Petteri Kuivas - Full-stack Developer",
     description:
-      "Full-stack developer building cross-platform apps and reliable web systems with React, React Native, and Node.js.",
+      "Full-stack developer experienced in TypeScript, React, Next.js, Angular, Node.js, .NET, and relational databases.",
     type: "website",
   },
 };

@@ -125,17 +125,17 @@ export const portfolioData: PortfolioData = {
   about: {
     title: "About",
     paragraphs: [
-      "I am a full-stack developer with experience in modern web applications and cross-platform mobile development.",
-      "I am currently completing Full-Stack Developer Training through Opiframe, including work-based training at Coubonga Oy. My current work focuses on full-stack development with Angular, ASP.NET Core, C#, Entity Framework Core, SQL databases, and REST APIs.",
-      "At BeyondOS, I worked across multiple company projects, collaborating closely with the CMS team on a gaming content management system. My work focused on improving user experience, content workflows, and reliability while working with a distributed development team.",
+      "I am a full-stack developer with experience in TypeScript, React, Next.js, Angular, Node.js, .NET, and relational databases, building modern web applications and cross-platform mobile apps.",
+      "I completed Opiframe’s Full-Stack Developer Training, including work-based training at Coubonga Oy, on November 6, 2026. At Coubonga, I worked with Angular, ASP.NET Core, C#, Entity Framework Core, SQL Server, REST APIs, and Azure, including redesigning the user interface of a web application.",
+      "At BeyondOS, I had primary responsibility for designing and developing a new gaming content management system while contributing to other company projects. I collaborated with the CMS team and a distributed development team to improve user experience, content workflows, and reliability.",
       "At Monidor Oy, I built cross-platform prototypes for iOS and Android using React Native and Expo, including configuration and remote monitoring applications based on existing Java systems. My bachelor's thesis focused on push notifications in a cross-platform application, covering a prototype routing server and Android/iOS apps.",
       "My background includes electrical and automation engineering studies and over ten years in the construction product industry, before transitioning into software development in 2021. I graduated from Oulu University of Applied Sciences (OAMK) with a Bachelor of Engineering in Information Technology in 03/2025 while working in software development roles.",
-      "My current focus is full-stack web development using TypeScript, React, Angular, Node.js, and .NET, supported by experience with relational databases and cloud deployments.",
+      "I am also modernizing the Suomen Beaglejärjestö database with Next.js, TypeScript, and PostgreSQL, with production deployment on Azure. In addition, I administer the association’s Microsoft 365 environment, including user accounts, mailboxes, aliases, licenses, domains, DNS, and security settings.",
     ],
     highlights: [
       {
         label: "Most recent role",
-        value: "Full-Stack Developer, Work-Based Training at Coubonga Oy (Jun 2026 – Present)",
+        value: "Full-Stack Developer, Work-Based Training at Coubonga Oy (Jun 2026 – Nov 2026)",
       },
       {
         label: "Education",
@@ -143,7 +143,8 @@ export const portfolioData: PortfolioData = {
       },
       {
         label: "Focus",
-        value: "Full-stack web development with TypeScript, React, Angular, Node.js, and .NET.",
+        value:
+          "Full-stack web development with TypeScript, React, Next.js, Angular, Node.js, and .NET.",
       },
       {
         label: "Thesis",
@@ -449,7 +450,7 @@ export const portfolioData: PortfolioData = {
           "Entity Framework Core",
           "PostgreSQL",
           "MySQL",
-          "MSSQL",
+          "Microsoft SQL Server (MSSQL)",
           "Prisma",
           "Drizzle",
         ],
@@ -460,7 +461,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         category: "Automation and IoT",
-        items: ["Python", "Tkinter", "MQTT", "Raspberry Pi"],
+        items: ["Python", "Tkinter", "MQTT", "Raspberry Pi", "n8n"],
       },
       {
         category: "Tooling",
@@ -487,11 +488,19 @@ export const portfolioData: PortfolioData = {
       },
       {
         category: "AI-assisted development",
-        items: ["Claude Code", "OpenCode", "Codex", "AI agent workflows"],
+        items: [
+          "Claude Code",
+          "OpenCode",
+          "Codex",
+          "AI agent workflows",
+          "Agent-based coding",
+          "MCP interfaces",
+          "AI security",
+        ],
       },
       {
         category: "Languages",
-        items: ["Finnish (Native)", "English (Good)", "Swedish (Basic)"],
+        items: ["Finnish (Native)", "English (Basic professional proficiency)", "Swedish (Basic)"],
       },
     ],
     additionalExperience: {
@@ -504,13 +513,13 @@ export const portfolioData: PortfolioData = {
     {
       company: "Coubonga Oy",
       role: "Full-Stack Developer, Work-Based Training",
-      period: "Jun 2026 – Present",
+      period: "Jun 2026 – Nov 2026",
       location: "Oulu",
       highlights: [
-        "Part of the Opiframe Full-Stack Developer Training.",
-        "Working with Angular and TypeScript on web application development.",
-        "Working with ASP.NET Core and C# backend development and REST APIs.",
-        "Working with Entity Framework Core and SQL databases as part of practical full-stack development.",
+        "Completed work-based training as part of Opiframe's Full-Stack Developer Training on November 6, 2026.",
+        "Developed frontend features with Angular and TypeScript, including redesigning the user interface of a web application.",
+        "Worked on backend development with ASP.NET Core and C#, REST APIs, Entity Framework Core, SQL Server databases, and Azure cloud services.",
+        "Maintained and further developed existing applications as part of a development team.",
       ],
     },
     {
@@ -519,7 +528,7 @@ export const portfolioData: PortfolioData = {
       period: "Jan 2025 – Jan 2026",
       location: "Oulu / Hybrid",
       highlights: [
-        "Contributed to a gaming CMS with the CMS team, focusing on user experience and content maintenance workflows.",
+        "Had primary responsibility for designing and developing a new gaming content management system.",
         "Delivered features across other company projects alongside the CMS work.",
         "Collaborated with a multinational team to design and ship user-focused features.",
       ],
@@ -575,21 +584,19 @@ export const portfolioData: PortfolioData = {
   ],
   education: [
     {
-      school: "Opiframe Oy",
-      degree:
-        "Practical Full-stack Developer Training (RekryKoulutus), supported by Oulun seudun työllisyysalue",
-      period: "Jun 2026 – Present",
+      school: "Opiframe",
+      degree: "Full-Stack Developer Training",
+      period: "Jun 2026 – Nov 2026",
       highlights: [
-        "Angular",
-        "ASP.NET Core",
-        "C#",
-        "Entity Framework Core",
-        "SQL / SQL Server",
-        "Azure",
-        "REST APIs",
+        "Completed November 6, 2026 · 100 study points (OTP).",
+        "Work-based training at Coubonga Oy",
+        "Full-stack development",
         "AI-assisted software development",
-        "AI security",
-        "AI agent development",
+        "Python, JavaScript, TypeScript, and SQL",
+        "React, MERN/Redux, and Angular",
+        "AI security, agent-based coding, and AI agents",
+        "MCP interfaces and n8n",
+        "Application security and user management",
       ],
     },
     {
